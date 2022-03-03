@@ -289,10 +289,12 @@ img{
     border-radius: 50%;
     background-color: transparent;
 }
-
-.slick-active li button {
+.slick-dots .slick-active button {
     background-color: #fff;
 }
+/* .slick-active li button {
+    background-color: #fff;
+} */
 .banner-section__slider-item {
 }
 .banner-section__item {
@@ -740,7 +742,9 @@ img{
 .banner{
     padding-bottom: 80px;
 }
-
+.banner-mobile{
+    display: none;
+}
 /* !=========================Верстка footer сайту ===================================================*/
 
 .footer {
@@ -1652,4 +1656,19 @@ button.catalog__filter-btnline{
     border-radius: 3px;
     padding: 10px 40px;
     border: none;
+}
+
+.product-slider .slick-dots{
+    bottom: -30px;
+
+}
+
+.product-slider .slick-dots button{
+    background-color: #C4C4C4;
+
+}
+
+.product-slider .slick-dots .slick-active button{
+    background-color: #1C62CD;
+
 }
