@@ -125,7 +125,7 @@ $(function(){
         $(this).addClass('catalog__filter-button--active');
         $('.catalog__filter-btngrid').removeClass('catalog__filter-button--active');
         $('.product-item__wrapper').addClass('product-item__wrapper--list')
-    })
+    });
 
     $(".rate-yo").rateYo({
         normalFill: "#C4C4C4",
@@ -135,7 +135,13 @@ $(function(){
 
     $('.menu__btn').on('click', function(){
         $('.menu-mobile__list').toggleClass('menu-mobile__list--active');
-    })
+    });
     
+
+
+    $('.footer__topdrop').on('click', function(){
+        $(this).next().slideToggle();
+        $(this).toggleClass('footer__topdrop--active');
+    });
 
 });
