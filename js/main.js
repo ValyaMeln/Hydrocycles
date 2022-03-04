@@ -39,6 +39,9 @@ $(function(){
 
         $(this).addClass('tab--active');
         $($(this).attr('href')).addClass('tabs-content--active');
+
+        $('.product-slider').slick('setPosition');
+
     });
 
          
@@ -143,5 +146,13 @@ $(function(){
         $(this).next().slideToggle();
         $(this).toggleClass('footer__topdrop--active');
     });
+
+    $('.aside__btn').on('click', function(){
+        $(this).next().slideToggle();
+    });
+
+
+
+    
 
 });

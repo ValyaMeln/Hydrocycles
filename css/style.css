@@ -6,7 +6,10 @@ html {
 *::after {
     box-sizing: inherit;
 }
-
+/* *{
+    color: red;
+    border: 1px solid red;
+} */
 a {
     text-decoration: none;
     color: inherit;
@@ -1068,6 +1071,9 @@ button.catalog__filter-btnline{
     line-height: 17px;
     cursor: pointer;
 }
+.aside__btn{
+    display: none;
+}
 .jq-checkbox, .jq-radio {
     vertical-align: -1px;
     background: #fff;
@@ -1539,7 +1545,9 @@ button.catalog__filter-btnline{
     border: none;
     cursor: pointer;
 }
-
+.product-card__btn-mobile{
+    display: none;
+}
 
 .card__tabs {
     margin-bottom: 100px;
@@ -1670,5 +1678,8 @@ button.catalog__filter-btnline{
 
 .product-slider .slick-dots .slick-active button{
     background-color: #1C62CD;
+}
 
+.footer__topdrop{
+    pointer-events: none;
 }
