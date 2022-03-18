@@ -43,7 +43,7 @@ body {
     min-width: 320px;
 }
 .container {
-    max-width: 1200px; /* 1270pxширина контейнера, але ще + padding*/
+    max-width: 1300px; /* 1270px ширина контейнера, але ще + padding*/
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -126,6 +126,7 @@ img{
 }
 .menu-mobile__list--active{
     transform: translateX(0%);
+    z-index: 11;
 }
 .menu-mobile__item {
     position: relative;
